@@ -57,19 +57,19 @@ total +
 
 if (total <= 6) {
 
-    result.style.color = "red";
+    result.style.color = "#a86d6d";
     result.innerHTML += "<br>Failure";
 
 }
 else if (total <= 9) {
 
-    result.style.color = "goldenrod";
+    result.style.color = "#7d93a6";
     result.innerHTML += "<br>success w/ cost";
 
 }
 else {
 
-    result.style.color = "green";
+    result.style.color = "#5f8a6b";
     result.innerHTML += "<br>Success";
 }
 document.getElementById("rollHistory").innerHTML =
