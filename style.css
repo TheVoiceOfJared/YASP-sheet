@@ -72,22 +72,15 @@ button:hover {
 #rollResult {
 
     min-height: 250px;
-
     font-size: 48px;
-
     text-align: center;
-
     font-weight: bold;
-
     display: flex;
-
     flex-direction: column;
-
     justify-content: center;
      min-width: 200px;
-
     margin: 0 auto;
-
+    line-height: 1.1;
 }
 
 .skills-table {
