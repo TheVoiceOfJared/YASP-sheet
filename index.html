@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>You Awaken in a Strange Place</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>YOU AWAKEN IN A STRANGE PLACE</h1>
+<p><em>Any Genre. Any Character. Any Adventure.</em></p>
+
+<h2>Character Information</h2>
+
+<label>Character Name</label>
+<input type="text" id="characterName">
+
+<label>Genre</label>
+<input type="text" id="genre">
+
+<label>Adjective</label>
+<input type="text" id="adjective">
+
+<label>Location</label>
+<input type="text" id="location">
+
+<label>Character Notes</label>
+<textarea id="bio"></textarea>
+
+<h2>Worldbuilding</h2>
+
+<label>Player 1 Statement</label>
+<textarea id="player1"></textarea>
+
+<label>Player 2 Statement</label>
+<textarea id="player2"></textarea>
+
+<label>Player 3 Statement</label>
+<textarea id="player3"></textarea>
+
+<h2>Hit Points</h2>
+
+<select id="hp">
+    <option>10</option>
+    <option>9</option>
+    <option>8</option>
+    <option>7</option>
+    <option>6</option>
+    <option>5</option>
+    <option>4</option>
+    <option>3</option>
+    <option>2</option>
+    <option>1</option>
+    <option>0</option>
+</select>
+
+<h2>Resources</h2>
+
+<select id="resources">
+    <option>0</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+    <option>9</option>
+    <option>10</option>
+</select>
+
+<h2>🎲 Dice Roller</h2>
+
+<button onclick="rollDice()">Roll 2d6</button>
+
+<h3 id="rollResult">Ready!</h3>
+
+<script src="script.js"></script>
+
+</body>
+</html>
