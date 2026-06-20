@@ -53,3 +53,15 @@ button {
 #rollResult {
     text-align: center;
 }
+.skills-table {
+    width: 100%;
+    border-spacing: 10px;
+}
+
+.skills-table td {
+    vertical-align: middle;
+}
+
+.skills-table input {
+    width: 140px;
+}
