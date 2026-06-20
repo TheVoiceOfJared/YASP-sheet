@@ -58,10 +58,21 @@ button {
 }
 
 #rollResult {
-min-height: 220px;
-font-size: 48px;
-text-align: center;
-font-weight: bold;
+
+    min-height: 250px;
+
+    font-size: 48px;
+
+    text-align: center;
+
+    font-weight: bold;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
 }
 
 .skills-table {
