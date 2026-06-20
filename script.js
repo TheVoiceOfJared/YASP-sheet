@@ -54,7 +54,7 @@ result.innerHTML =
 if (total <= 6) {
 
     result.style.color = "red";
-    result.innerHTML += "<br>Miss";
+    result.innerHTML += "<br>Failure";
 
 }
 else if (total <= 9) {
