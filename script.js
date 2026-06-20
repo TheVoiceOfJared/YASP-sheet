@@ -101,12 +101,12 @@ document.getElementById("hpContainer").innerHTML = html;
 
 }
 
-function setHP(value) {
+    function setHP(value) {
 
-hp = value;
+        hp = value;
 
-drawHearts();
-
+        drawHearts();
+}
 function drawResources() {
 
     let html = "";
@@ -130,5 +130,4 @@ resources = value;
 
 drawResources();
 
-}
 }
