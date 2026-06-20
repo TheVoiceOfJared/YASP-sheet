@@ -27,12 +27,7 @@ let die2 = Math.floor(Math.random() * 6) + 1;
 
 let total = die1 + die2;
 
-    history.unshift(total);
-
-if (history.length > 10) {
-    history.pop();
-}
-const symbols = [
+    const symbols = [
     "",
     "⚀",
     "⚁",
@@ -41,6 +36,18 @@ const symbols = [
     "⚄",
     "⚅"
 ];
+   let rollEntry =
+symbols[die1] +
+" + " +
+symbols[die2] +
+" = " +
+total;
+
+history.unshift(rollEntry);
+
+if (history.length > 10) {
+history.pop();
+}
 
 let result = document.getElementById("rollResult");
 
