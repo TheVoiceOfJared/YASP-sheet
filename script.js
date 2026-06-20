@@ -36,11 +36,10 @@ let total = die1 + die2;
     "⚄",
     "⚅"
 ];
-   let rollEntry =
+  let rollEntry =
 symbols[die1] +
-" + " +
 symbols[die2] +
-" = " +
+" → " +
 total;
 
 history.unshift(rollEntry);
