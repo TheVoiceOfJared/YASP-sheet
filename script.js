@@ -45,11 +45,15 @@ const symbols = [
 let result = document.getElementById("rollResult");
 
 result.innerHTML =
-    symbols[die1] +
-    " + " +
-    symbols[die2] +
-    " = " +
-    total;
+"<div class='dice-row'>" +
+symbols[die1] +
+" + " +
+symbols[die2] +
+" =" +
+"</div>" +
+"<div class='total-number'>" +
+total +
+"</div>";
 
 if (total <= 6) {
 
