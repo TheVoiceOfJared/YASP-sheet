@@ -116,3 +116,32 @@ box-shadow:
     gap:10px;
 
 }
+.play-area {
+
+    display: flex;
+
+    gap: 30px;
+
+}
+
+.play-area > .card {
+
+    flex: 3;
+
+}
+
+.dice-column {
+
+    flex: 1;
+
+}
+
+@media (max-width: 900px) {
+
+    .play-area {
+
+        flex-direction: column;
+
+    }
+
+}
