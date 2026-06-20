@@ -89,9 +89,20 @@ button:hover {
 }
 
 .skills-table td {
-    vertical-align: middle;
-}
 
+font-family: Georgia, serif;
+
+font-size: 28px;
+
+font-weight: bold;
+
+text-align: center;
+
+vertical-align: middle;
+
+padding-right: 10px;
+
+}
 .skills-table input {
     
     width:120px;
