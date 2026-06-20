@@ -51,8 +51,11 @@ button {
 }
 
 #rollResult {
-    text-align: center;
+font-size: 48px;
+text-align: center;
+font-weight: bold;
 }
+
 .skills-table {
     width: 100%;
     border-spacing: 10px;
