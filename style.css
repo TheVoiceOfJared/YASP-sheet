@@ -132,17 +132,27 @@ flex:1;
 
     align-items: center;
 
-    gap: 40px;
+    gap: 50px;
 
 }
+
 .stat-group {
 
-    display:flex;
+    display: flex;
 
-    align-items:center;
+    align-items: center;
 
-    gap:10px;
+    gap: 10px;
 
+}
+
+.stat-group label {
+
+    display: inline;
+
+    margin-top: 0;
+
+}
 }
 .play-area {
 
