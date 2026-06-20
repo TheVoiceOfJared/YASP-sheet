@@ -63,7 +63,6 @@ else {
     result.innerHTML += "<br>Strong Success";
 
 }
-```
 
 }
 
