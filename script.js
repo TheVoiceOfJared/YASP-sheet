@@ -1,4 +1,5 @@
 // Load saved data when page opens
+let history = [];
 window.onload = function() {
 
     document.querySelectorAll("input, textarea, select").forEach(field => {
@@ -26,6 +27,11 @@ let die2 = Math.floor(Math.random() * 6) + 1;
 
 let total = die1 + die2;
 
+    history.unshift(total);
+
+if (history.length > 10) {
+    history.pop();
+}
 const symbols = [
     "",
     "⚀",
@@ -61,8 +67,8 @@ else {
 
     result.style.color = "green";
     result.innerHTML += "<br>Strong Success";
-
 }
-
+document.getElementById("rollHistory").innerHTML =
+    history.join("<br>");
 }
 
