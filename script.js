@@ -64,7 +64,7 @@ if (total <= 6) {
 else if (total <= 9) {
 
     result.style.color = "goldenrod";
-    result.innerHTML += "<br>success with cost";
+    result.innerHTML += "<br>success w/ cost";
 
 }
 else {
