@@ -64,13 +64,13 @@ if (total <= 6) {
 else if (total <= 9) {
 
     result.style.color = "goldenrod";
-    result.innerHTML += "<br>Mixed Success";
+    result.innerHTML += "<br>success with cost";
 
 }
 else {
 
     result.style.color = "green";
-    result.innerHTML += "<br>Strong Success";
+    result.innerHTML += "<br>Success";
 }
 document.getElementById("rollHistory").innerHTML =
     history.join("<br>");
