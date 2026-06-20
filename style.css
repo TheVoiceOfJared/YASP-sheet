@@ -200,7 +200,12 @@ flex:1;
 input,
 textarea,
 select {
-
     border: 1px solid #b8c2cc;
+}
+.dice-row{
+    font-size:60px;
+}
 
+.total-number{
+    font-size:80px;
 }
