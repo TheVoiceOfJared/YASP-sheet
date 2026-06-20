@@ -212,3 +212,10 @@ flex:1;
     text-align: center;
 
 }
+input,
+textarea,
+select {
+
+    border: 1px solid #b8c2cc;
+
+}
