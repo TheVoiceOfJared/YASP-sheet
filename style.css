@@ -72,6 +72,9 @@ button {
     flex-direction: column;
 
     justify-content: center;
+     min-width: 200px;
+
+    margin: 0 auto;
 
 }
 
