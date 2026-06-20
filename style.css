@@ -49,6 +49,13 @@ button {
     padding: 10px 20px;
     font-size: 18px;
 }
+.dice-column button {
+
+    display:block;
+
+    margin:0 auto 30px auto;
+
+}
 
 #rollResult {
 font-size: 48px;
@@ -149,12 +156,25 @@ box-shadow:
 
     height: 120px;
 
+    width: 120px;
+
     overflow-y: auto;
 
-    margin-top: 25px;
+    border: 1px solid lightgray;
 
     padding: 10px;
 
-    border: 1px solid lightgray;
+    margin-top: 25px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    text-align: center;
+
+}
+.dice-column {
+
+    text-align: center;
 
 }
