@@ -18,6 +18,7 @@ window.onload = function() {
 
     });
 drawHearts();
+drawResources();
 };
 
 
@@ -106,4 +107,28 @@ hp = value;
 
 drawHearts();
 
+function drawResources() {
+
+    let html = "";
+
+    for (let i = 1; i <= 5; i++) {
+
+    if (i <= resources)
+        html += `<span onclick="setResources(${i})">⭐</span>`;
+    else
+        html += `<span onclick="setResources(${i})">☆</span>`;
+
+}
+
+document.getElementById("resourceContainer").innerHTML = html;
+
+}
+
+function setResources(value) {
+
+resources = value;
+
+drawResources();
+
+}
 }
