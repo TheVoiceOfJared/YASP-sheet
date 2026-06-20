@@ -145,3 +145,16 @@ box-shadow:
     }
 
 }
+#rollHistory {
+
+    height: 120px;
+
+    overflow-y: auto;
+
+    margin-top: 25px;
+
+    padding: 10px;
+
+    border: 1px solid lightgray;
+
+}
