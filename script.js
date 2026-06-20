@@ -21,23 +21,50 @@ window.onload = function() {
 // Roll 2d6
 function rollDice() {
 
-    let die1 = Math.floor(Math.random() * 6) + 1;
-    let die2 = Math.floor(Math.random() * 6) + 1;
+```
+let die1 = Math.floor(Math.random() * 6) + 1;
+let die2 = Math.floor(Math.random() * 6) + 1;
 
-    let total = die1 + die2;
+let total = die1 + die2;
 
-    let result = document.getElementById("rollResult");
+const symbols = [
+    "",
+    "⚀",
+    "⚁",
+    "⚂",
+    "⚃",
+    "⚄",
+    "⚅"
+];
 
-    result.innerHTML = "🎲 " + die1 + " + " + die2 + " = " + total;
+let result = document.getElementById("rollResult");
 
-    if (total <= 6) {
-        result.style.color = "red";
-    }
-    else if (total <= 9) {
-        result.style.color = "goldenrod";
-    }
-    else {
-        result.style.color = "green";
-    }
+result.innerHTML =
+    symbols[die1] +
+    " + " +
+    symbols[die2] +
+    " = " +
+    total;
+
+if (total <= 6) {
+
+    result.style.color = "red";
+    result.innerHTML += "<br>Miss";
 
 }
+else if (total <= 9) {
+
+    result.style.color = "goldenrod";
+    result.innerHTML += "<br>Mixed Success";
+
+}
+else {
+
+    result.style.color = "green";
+    result.innerHTML += "<br>Strong Success";
+
+}
+```
+
+}
+
