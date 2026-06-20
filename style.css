@@ -65,3 +65,12 @@ button {
 .skills-table input {
     width: 140px;
 }
+
+.world-row{
+display:flex;
+gap:20px;
+}
+
+.world-row div{
+flex:1;
+}
