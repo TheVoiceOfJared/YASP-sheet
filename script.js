@@ -1,5 +1,7 @@
 // Load saved data when page opens
 let history = [];
+let hp = 10;
+let resources = 5;
 window.onload = function() {
 
     document.querySelectorAll("input, textarea, select").forEach(field => {
@@ -81,4 +83,27 @@ else {
 document.getElementById("rollHistory").innerHTML =
     history.join("<br>");
 }
+function drawHearts() {
 
+let html = "";
+
+for (let i = 1; i <= 10; i++) {
+
+    if (i <= hp)
+        html += `<span onclick="setHP(${i})">❤️</span>`;
+    else
+        html += `<span onclick="setHP(${i})">🤍</span>`;
+
+}
+
+document.getElementById("hpContainer").innerHTML = html;
+
+}
+
+function setHP(value) {
+
+hp = value;
+
+drawHearts();
+
+}
