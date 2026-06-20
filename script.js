@@ -1,7 +1,7 @@
 // Load saved data when page opens
 let history = [];
 let hp = 10;
-let resources = 5;
+let resources = 0;
 window.onload = function() {
 
     document.querySelectorAll("input, textarea, select").forEach(field => {
